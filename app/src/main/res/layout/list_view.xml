@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="15dp"
+    tools:context=".MainActivityFragment"
+    android:background="#00ffaa">
+
+    <EditText
+        android:minHeight="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="left|top"
+        android:background="#000000"
+        android:text="Sunshine"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="@string/action_settings"
+        android:textSize="40dp"
+        android:textAlignment="gravity"
+        android:clickable="true" />
+
+    <ListView android:text="Today"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:id="@+id/today"
+        android:textSize="25dp"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textIsSelectable="true"
+        android:background="#0055bb"
+        android:clickable="true" />
+
+
+
+</FrameLayout>
